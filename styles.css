@@ -1,0 +1,48 @@
+/* Fondo degradado */
+.bg-gradient {
+  background: linear-gradient(135deg, #ece9e6, #ffffff, #d7e1ec);
+  min-height: 100vh;
+}
+
+/* Tarjeta principal */
+.color-card {
+  max-width: 850px;
+  background: #fff;
+  border-radius: 1.5rem;
+}
+
+/* Recuadro de color */
+.color-box {
+  width: 220px;
+  height: 220px;
+  border-radius: 1.2rem;
+  border: 3px solid #eee;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Inputs numéricos */
+.input-box {
+  max-width: 80px;
+  text-align: center;
+  border-radius: 0.75rem;
+}
+
+/* Sliders personalizados */
+input[type=range] {
+  height: 6px;
+  border-radius: 5px;
+  background: #ddd;
+  accent-color: #0d6efd;
+  cursor: pointer;
+}
+
+/* Colores para sliders */
+.slider-red {
+  accent-color: #dc3545;
+}
+.slider-green {
+  accent-color: #198754;
+}
+.slider-blue {
+  accent-color: #0d6efd;
+}
